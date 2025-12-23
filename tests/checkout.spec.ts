@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { InventoryPage } from '../pages/InventoryPage';
-import { CartPage } from '../pages/CartPage';
-import { CheckoutPage } from '../pages/CheckoutPage';
 import { readExcelFile } from '../utils/ExcelUtils';
 import * as path from 'path';
+import { LoginPage } from 'Pages/LoginPage';
+import { InventoryPage } from 'Pages/InventoryPage';
+import { CheckoutPage } from 'Pages/CheckoutPage';
+import { CartPage } from 'Pages/CartPage';
 
 const users = readExcelFile(path.join(__dirname, '../data/users.xlsx'));
 
