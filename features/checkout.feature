@@ -14,5 +14,5 @@ Feature: Checkout Flow
     Then I should see success message "Thank you for your order!"
 
     Examples:
-      | username      | password     | firstName | lastName | postalCode | itemTotal | tax   | total   |
-      | standard_user | secret_sauce | John      | Doe      | 12345      | Item total: $29.99 | Tax: $2.40 | Total: $32.39 |
+      | username      | password     | firstName | lastName | postalCode | itemTotal          | tax        | total         |
+      | standard_user | secret_sauce | John      | Doe      |      12345 | Item total: $29.99 | Tax: $2.40 | Total: $32.39 |
