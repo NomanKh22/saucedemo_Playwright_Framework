@@ -24,4 +24,5 @@ export class InventoryPage {
     async filterBy(option: string) {
         await this.page.selectOption(this.filterDropdown, option);
     }
+    //testing
 }
