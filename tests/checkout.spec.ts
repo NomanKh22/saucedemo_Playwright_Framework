@@ -33,6 +33,7 @@ for (const user of users as any[]) {
             await expect(page.locator(checkoutPage.summarySubtotal)).toHaveText(user.itemTotal);
             await expect(page.locator(checkoutPage.summaryTax)).toHaveText(user.tax);
             await expect(page.locator(checkoutPage.summaryTotal)).toHaveText(user.total);
+            // change git code
 
             await checkoutPage.finishCheckout();
 
