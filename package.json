@@ -7,6 +7,7 @@
     "test:headed": "npx playwright test --headed",
     "test:debug": "npx playwright test --debug",
     "report": "npx playwright show-report",
+    "report:allure": "npx allure serve allure-results",
     "test:cucumber": "cucumber-js"
   },
   "keywords": [],
@@ -17,6 +18,9 @@
     "@cucumber/cucumber": "^12.4.0",
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.2",
+    "allure-commandline": "^2.36.0",
+    "allure-cucumberjs": "^3.4.3",
+    "allure-playwright": "^3.4.3",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
